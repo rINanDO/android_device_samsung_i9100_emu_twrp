@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
 
 # TWRP
 TW_THEME := portrait_mdpi
-#TW_USE_TOOLBOX := true
+TW_USE_BUSYBOX_SH := true
 TWRP_NEW_THEME := true
 HAVE_SELINUX := true
 TW_MAX_BRIGHTNESS := 255
